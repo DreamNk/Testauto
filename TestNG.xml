@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="1" verbose="1" name="SUN Suite" annotations="JDK"
+	parallel="tests">
+   <!--	 <parameter name="env" value="dev1" />  -->
+	
+	<test name="YourLogoApplicationTests">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+		
+			<class name="test.Automation_Test.YourLogoApplicationTests" />
+			
+		</classes>
+	</test>
+
+	 <!--  <test name="Test Automation Framework Firefox">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="MDM.Automation_Test.LoginTest" />
+			<class name="MDM.Automation_Test.SampleTest" />
+		</classes>
+	</test>
+
+	 <test name="Test Automation Framework InternetExplorer">
+		<parameter name="browser" value="InternetExplorer" />
+		<classes>
+			<class name="MDM.Automation_Test.LoginTest" />
+			<class name="MDM.Automation_Test.SampleTest" />
+		</classes> 
+	</test> -->
+</suite>

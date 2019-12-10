@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [NK Suite]" parallel="tests">
+  <test name="login">
+    <classes>
+      <class name="MDM.Automation_Test.SampleTest"/>
+    </classes>
+  </test> <!-- login -->
+  <test name="login(failed)" parallel="tests">
+    <classes>
+      <class name="MDM.Automation_Test.SampleTest">
+        <methods>
+          <include name="runBeforeSuit"/>
+          <include name="LoginToApplication"/>
+          <include name="getResult"/>
+          <include name="runAfterTestSuit"/>
+          <include name="runAfterTest"/>
+          <include name="runBeforeMethod"/>
+          <include name="testFixtureTeardown"/>
+          <include name="runBeforeTest"/>
+        </methods>
+      </class> <!-- MDM.Automation_Test.SampleTest -->
+    </classes>
+  </test> <!-- login(failed) -->
+</suite> <!-- Failed suite [NK Suite] -->

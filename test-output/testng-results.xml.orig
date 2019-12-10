@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
+<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="54421" started-at="2019-05-28T06:04:21Z" finished-at="2019-05-28T06:05:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="54421" started-at="2019-05-28T06:04:21Z" finished-at="2019-05-28T06:05:16Z">
+      <class name="MDM.Automation_Test.Login_Test">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:MDM.Automation_Test.Login_Test@4007f65e]" name="startReport" is-config="true" duration-ms="664" started-at="2019-05-28T06:04:21Z" finished-at="2019-05-28T06:04:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="init()[pri:0, instance:MDM.Automation_Test.Login_Test@4007f65e]" name="init" is-config="true" duration-ms="27495" started-at="2019-05-28T06:04:22Z" finished-at="2019-05-28T06:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="FAIL" signature="Login()[pri:0, instance:MDM.Automation_Test.Login_Test@4007f65e]" name="Login" duration-ms="22824" started-at="2019-05-28T06:04:50Z" finished-at="2019-05-28T06:05:13Z">
+          <exception class="junit.framework.AssertionFailedError">
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError
+at junit.framework.Assert.fail(Assert.java:55)
+at junit.framework.Assert.assertTrue(Assert.java:22)
+at junit.framework.Assert.assertTrue(Assert.java:31)
+at MDM.Automation_Test.Login_Test.Login(Login_Test.java:83)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+=======
+<testng-results skipped="0" failed="4" total="8" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SUN Suite" duration-ms="141386" started-at="2019-06-03T10:44:50Z" finished-at="2019-06-03T10:47:12Z">
+    <groups>
+    </groups>
+    <test name="Test Automation Framework Chrome" duration-ms="34943" started-at="2019-06-03T10:44:50Z" finished-at="2019-06-03T10:45:25Z">
+      <class name="MDM.Automation_Test.SampleTest">
+        <test-method status="PASS" signature="runBeforeClass(java.lang.String, java.lang.String)[pri:0, instance:MDM.Automation_Test.SampleTest@7f560810]" name="runBeforeClass" is-config="true" duration-ms="12217" started-at="2019-06-03T16:15:10Z" finished-at="2019-06-03T16:15:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runBeforeClass -->
+        <test-method status="PASS" signature="runBeforeMethod(java.lang.reflect.Method)[pri:0, instance:MDM.Automation_Test.SampleTest@7f560810]" name="runBeforeMethod" is-config="true" duration-ms="1" started-at="2019-06-03T16:15:22Z" finished-at="2019-06-03T16:15:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void MDM.Automation_Test.SampleTest.LoginToApplication3() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runBeforeMethod -->
+        <test-method status="FAIL" signature="LoginToApplication3()[pri:0, instance:MDM.Automation_Test.SampleTest@7f560810]" name="LoginToApplication3" duration-ms="1518" started-at="2019-06-03T16:15:22Z" description="Verify Login Functionality 3" finished-at="2019-06-03T16:15:24Z">
+          <exception class="junit.framework.AssertionFailedError">
+            <message>
+              <![CDATA[Login Failed 1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError: Login Failed 1
+	at junit.framework.Assert.fail(Assert.java:50)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at MDM.Automation_Test.SampleTest.LoginToApplication3(SampleTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToApplication3 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:MDM.Automation_Test.SampleTest@7f560810]" name="getResult" is-config="true" duration-ms="363" started-at="2019-06-03T16:15:24Z" finished-at="2019-06-03T16:15:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginToApplication3 status=FAILURE method=SampleTest.LoginToApplication3()[pri:0, instance:MDM.Automation_Test.SampleTest@7f560810] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="LoginToApplication4()[pri:0, instance:MDM.Automation_Test.SampleTest@7f560810]" name="LoginToApplication4" duration-ms="750" started-at="2019-06-03T16:15:24Z" description="Verify Login Functionality 4" finished-at="2019-06-03T16:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToApplication4 -->
+        <test-method status="PASS" signature="runBeforeMethod(java.lang.reflect.Method)[pri:0, instance:MDM.Automation_Test.SampleTest@7f560810]" name="runBeforeMethod" is-config="true" duration-ms="0" started-at="2019-06-03T16:15:24Z" finished-at="2019-06-03T16:15:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void MDM.Automation_Test.SampleTest.LoginToApplication4() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runBeforeMethod -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:MDM.Automation_Test.SampleTest@7f560810]" name="getResult" is-config="true" duration-ms="1" started-at="2019-06-03T16:15:25Z" finished-at="2019-06-03T16:15:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginToApplication4 status=SUCCESS method=SampleTest.LoginToApplication4()[pri:0, instance:MDM.Automation_Test.SampleTest@7f560810] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="runAfterClass()[pri:0, instance:MDM.Automation_Test.SampleTest@7f560810]" name="runAfterClass" is-config="true" duration-ms="704" started-at="2019-06-03T16:15:25Z" finished-at="2019-06-03T16:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runAfterClass -->
+      </class> <!-- MDM.Automation_Test.SampleTest -->
+      <class name="MDM.Automation_Test.LoginTest">
+        <test-method status="PASS" signature="runBeforeClass(java.lang.String, java.lang.String)[pri:0, instance:MDM.Automation_Test.LoginTest@97e1986]" name="runBeforeClass" is-config="true" duration-ms="14594" started-at="2019-06-03T16:14:50Z" finished-at="2019-06-03T16:15:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runBeforeClass -->
+        <test-method status="PASS" signature="runBeforeMethod(java.lang.reflect.Method)[pri:0, instance:MDM.Automation_Test.LoginTest@97e1986]" name="runBeforeMethod" is-config="true" duration-ms="1" started-at="2019-06-03T16:15:05Z" finished-at="2019-06-03T16:15:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void MDM.Automation_Test.LoginTest.LoginToApplication1() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runBeforeMethod -->
+        <test-method status="FAIL" signature="LoginToApplication1()[pri:0, instance:MDM.Automation_Test.LoginTest@97e1986]" name="LoginToApplication1" duration-ms="1265" started-at="2019-06-03T16:15:05Z" description="Verify Login Functionality 1" finished-at="2019-06-03T16:15:06Z">
+          <exception class="junit.framework.AssertionFailedError">
+            <message>
+              <![CDATA[Login Failed 1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError: Login Failed 1
+	at junit.framework.Assert.fail(Assert.java:50)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at MDM.Automation_Test.LoginTest.LoginToApplication1(LoginTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+>>>>>>> fea0be4bd78264d2058373994e0c9a4dfb6c8db5
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+<<<<<<< HEAD
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:MDM.Automation_Test.Login_Test@4007f65e]" name="getResult" is-config="true" duration-ms="11" started-at="2019-05-28T06:05:13Z" finished-at="2019-05-28T06:05:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=FAILURE method=Login_Test.Login()[pri:0, instance:MDM.Automation_Test.Login_Test@4007f65e] output={null}]]]>
+=======
+        </test-method> <!-- LoginToApplication1 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:MDM.Automation_Test.LoginTest@97e1986]" name="getResult" is-config="true" duration-ms="398" started-at="2019-06-03T16:15:06Z" finished-at="2019-06-03T16:15:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginToApplication1 status=FAILURE method=LoginTest.LoginToApplication1()[pri:0, instance:MDM.Automation_Test.LoginTest@97e1986] output={null}]]]>
+>>>>>>> fea0be4bd78264d2058373994e0c9a4dfb6c8db5
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+<<<<<<< HEAD
+        <test-method status="FAIL" signature="Login2()[pri:0, instance:MDM.Automation_Test.Login_Test@4007f65e]" name="Login2" duration-ms="1463" started-at="2019-05-28T06:05:13Z" finished-at="2019-05-28T06:05:14Z">
+          <exception class="junit.framework.AssertionFailedError">
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError
+at junit.framework.Assert.fail(Assert.java:55)
+at junit.framework.Assert.assertTrue(Assert.java:22)
+at junit.framework.Assert.assertTrue(Assert.java:31)
+at MDM.Automation_Test.Login_Test.Login2(Login_Test.java:105)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login2 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:MDM.Automation_Test.Login_Test@4007f65e]" name="getResult" is-config="true" duration-ms="1" started-at="2019-05-28T06:05:14Z" finished-at="2019-05-28T06:05:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login2 status=FAILURE method=Login_Test.Login2()[pri:0, instance:MDM.Automation_Test.Login_Test@4007f65e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:MDM.Automation_Test.Login_Test@4007f65e]" name="quit" is-config="true" duration-ms="184" started-at="2019-05-28T06:05:14Z" finished-at="2019-05-28T06:05:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:MDM.Automation_Test.Login_Test@4007f65e]" name="endReport" is-config="true" duration-ms="1667" started-at="2019-05-28T06:05:14Z" finished-at="2019-05-28T06:05:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- MDM.Automation_Test.Login_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+=======
+        <test-method status="PASS" signature="LoginToApplication2()[pri:0, instance:MDM.Automation_Test.LoginTest@97e1986]" name="LoginToApplication2" duration-ms="815" started-at="2019-06-03T16:15:07Z" description="Verify Login Functionality 2" finished-at="2019-06-03T16:15:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToApplication2 -->
+        <test-method status="PASS" signature="runBeforeMethod(java.lang.reflect.Method)[pri:0, instance:MDM.Automation_Test.LoginTest@97e1986]" name="runBeforeMethod" is-config="true" duration-ms="0" started-at="2019-06-03T16:15:07Z" finished-at="2019-06-03T16:15:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void MDM.Automation_Test.LoginTest.LoginToApplication2() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runBeforeMethod -->
+        <test-method status="PASS" signature="runAfterClass()[pri:0, instance:MDM.Automation_Test.LoginTest@97e1986]" name="runAfterClass" is-config="true" duration-ms="2282" started-at="2019-06-03T16:15:08Z" finished-at="2019-06-03T16:15:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runAfterClass -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:MDM.Automation_Test.LoginTest@97e1986]" name="getResult" is-config="true" duration-ms="0" started-at="2019-06-03T16:15:08Z" finished-at="2019-06-03T16:15:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginToApplication2 status=SUCCESS method=LoginTest.LoginToApplication2()[pri:0, instance:MDM.Automation_Test.LoginTest@97e1986] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- MDM.Automation_Test.LoginTest -->
+    </test> <!-- Test Automation Framework Chrome -->
+    <test name="Test Automation Framework Firefox" duration-ms="106142" started-at="2019-06-03T10:45:26Z" finished-at="2019-06-03T10:47:12Z">
+      <class name="MDM.Automation_Test.SampleTest">
+        <test-method status="PASS" signature="runBeforeClass(java.lang.String, java.lang.String)[pri:0, instance:MDM.Automation_Test.SampleTest@7c0e2abd]" name="runBeforeClass" is-config="true" duration-ms="47104" started-at="2019-06-03T16:16:20Z" finished-at="2019-06-03T16:17:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runBeforeClass -->
+        <test-method status="FAIL" signature="LoginToApplication3()[pri:0, instance:MDM.Automation_Test.SampleTest@7c0e2abd]" name="LoginToApplication3" duration-ms="2385" started-at="2019-06-03T16:17:08Z" description="Verify Login Functionality 3" finished-at="2019-06-03T16:17:10Z">
+          <exception class="junit.framework.AssertionFailedError">
+            <message>
+              <![CDATA[Login Failed 1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError: Login Failed 1
+	at junit.framework.Assert.fail(Assert.java:50)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at MDM.Automation_Test.SampleTest.LoginToApplication3(SampleTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToApplication3 -->
+        <test-method status="PASS" signature="runBeforeMethod(java.lang.reflect.Method)[pri:0, instance:MDM.Automation_Test.SampleTest@7c0e2abd]" name="runBeforeMethod" is-config="true" duration-ms="0" started-at="2019-06-03T16:17:08Z" finished-at="2019-06-03T16:17:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void MDM.Automation_Test.SampleTest.LoginToApplication3() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runBeforeMethod -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:MDM.Automation_Test.SampleTest@7c0e2abd]" name="getResult" is-config="true" duration-ms="499" started-at="2019-06-03T16:17:10Z" finished-at="2019-06-03T16:17:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginToApplication3 status=FAILURE method=SampleTest.LoginToApplication3()[pri:0, instance:MDM.Automation_Test.SampleTest@7c0e2abd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="runBeforeMethod(java.lang.reflect.Method)[pri:0, instance:MDM.Automation_Test.SampleTest@7c0e2abd]" name="runBeforeMethod" is-config="true" duration-ms="1" started-at="2019-06-03T16:17:10Z" finished-at="2019-06-03T16:17:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void MDM.Automation_Test.SampleTest.LoginToApplication4() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runBeforeMethod -->
+        <test-method status="PASS" signature="LoginToApplication4()[pri:0, instance:MDM.Automation_Test.SampleTest@7c0e2abd]" name="LoginToApplication4" duration-ms="1344" started-at="2019-06-03T16:17:10Z" description="Verify Login Functionality 4" finished-at="2019-06-03T16:17:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToApplication4 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:MDM.Automation_Test.SampleTest@7c0e2abd]" name="getResult" is-config="true" duration-ms="1" started-at="2019-06-03T16:17:12Z" finished-at="2019-06-03T16:17:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginToApplication4 status=SUCCESS method=SampleTest.LoginToApplication4()[pri:0, instance:MDM.Automation_Test.SampleTest@7c0e2abd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="runAfterClass()[pri:0, instance:MDM.Automation_Test.SampleTest@7c0e2abd]" name="runAfterClass" is-config="true" duration-ms="34" started-at="2019-06-03T16:17:12Z" finished-at="2019-06-03T16:17:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runAfterClass -->
+      </class> <!-- MDM.Automation_Test.SampleTest -->
+      <class name="MDM.Automation_Test.LoginTest">
+        <test-method status="PASS" signature="runBeforeTestSuit()[pri:0, instance:MDM.Automation_Test.LoginTest@3c756e4d]" name="runBeforeTestSuit" is-config="true" duration-ms="1288" started-at="2019-06-03T16:14:49Z" finished-at="2019-06-03T16:14:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runBeforeTestSuit -->
+        <test-method status="PASS" signature="runBeforeClass(java.lang.String, java.lang.String)[pri:0, instance:MDM.Automation_Test.LoginTest@3c756e4d]" name="runBeforeClass" is-config="true" duration-ms="48991" started-at="2019-06-03T16:15:26Z" finished-at="2019-06-03T16:16:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runBeforeClass -->
+        <test-method status="PASS" signature="runBeforeMethod(java.lang.reflect.Method)[pri:0, instance:MDM.Automation_Test.LoginTest@3c756e4d]" name="runBeforeMethod" is-config="true" duration-ms="1" started-at="2019-06-03T16:16:15Z" finished-at="2019-06-03T16:16:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void MDM.Automation_Test.LoginTest.LoginToApplication1() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runBeforeMethod -->
+        <test-method status="FAIL" signature="LoginToApplication1()[pri:0, instance:MDM.Automation_Test.LoginTest@3c756e4d]" name="LoginToApplication1" duration-ms="3253" started-at="2019-06-03T16:16:15Z" description="Verify Login Functionality 1" finished-at="2019-06-03T16:16:18Z">
+          <exception class="junit.framework.AssertionFailedError">
+            <message>
+              <![CDATA[Login Failed 1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError: Login Failed 1
+	at junit.framework.Assert.fail(Assert.java:50)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at MDM.Automation_Test.LoginTest.LoginToApplication1(LoginTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToApplication1 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:MDM.Automation_Test.LoginTest@3c756e4d]" name="getResult" is-config="true" duration-ms="604" started-at="2019-06-03T16:16:18Z" finished-at="2019-06-03T16:16:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginToApplication1 status=FAILURE method=LoginTest.LoginToApplication1()[pri:0, instance:MDM.Automation_Test.LoginTest@3c756e4d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="runBeforeMethod(java.lang.reflect.Method)[pri:0, instance:MDM.Automation_Test.LoginTest@3c756e4d]" name="runBeforeMethod" is-config="true" duration-ms="1" started-at="2019-06-03T16:16:19Z" finished-at="2019-06-03T16:16:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void MDM.Automation_Test.LoginTest.LoginToApplication2() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runBeforeMethod -->
+        <test-method status="PASS" signature="LoginToApplication2()[pri:0, instance:MDM.Automation_Test.LoginTest@3c756e4d]" name="LoginToApplication2" duration-ms="1870" started-at="2019-06-03T16:16:19Z" description="Verify Login Functionality 2" finished-at="2019-06-03T16:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToApplication2 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:MDM.Automation_Test.LoginTest@3c756e4d]" name="getResult" is-config="true" duration-ms="1" started-at="2019-06-03T16:16:20Z" finished-at="2019-06-03T16:16:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginToApplication2 status=SUCCESS method=LoginTest.LoginToApplication2()[pri:0, instance:MDM.Automation_Test.LoginTest@3c756e4d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="runAfterClass()[pri:0, instance:MDM.Automation_Test.LoginTest@3c756e4d]" name="runAfterClass" is-config="true" duration-ms="33" started-at="2019-06-03T16:16:20Z" finished-at="2019-06-03T16:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runAfterClass -->
+        <test-method status="PASS" signature="runAfterTestSuit()[pri:0, instance:MDM.Automation_Test.LoginTest@3c756e4d]" name="runAfterTestSuit" is-config="true" duration-ms="2127" started-at="2019-06-03T16:17:12Z" finished-at="2019-06-03T16:17:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runAfterTestSuit -->
+      </class> <!-- MDM.Automation_Test.LoginTest -->
+    </test> <!-- Test Automation Framework Firefox -->
+  </suite> <!-- SUN Suite -->
+>>>>>>> fea0be4bd78264d2058373994e0c9a4dfb6c8db5
+</testng-results>

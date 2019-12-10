@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+<<<<<<< HEAD
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+=======
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+>>>>>>> fea0be4bd78264d2058373994e0c9a4dfb6c8db5
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+<<<<<<< HEAD
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-failed">Default suite</span>
+=======
+            <a href="#" class="navigator-link" panel-name="suite-SUN_Suite">
+              <span class="suite-name border-failed">SUN Suite</span>
+>>>>>>> fea0be4bd78264d2058373994e0c9a4dfb6c8db5
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+<<<<<<< HEAD
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\nandakishor.ban\AppData\Local\Temp\testng-eclipse-1806318962\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+=======
+                  <a href="#" class="navigator-link " panel-name="test-xml-SUN_Suite">
+                    <span>D:\TestAutomationFramework\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-SUN_Suite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-SUN_Suite">
+>>>>>>> fea0be4bd78264d2058373994e0c9a4dfb6c8db5
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+<<<<<<< HEAD
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+=======
+                  <a href="#" class="navigator-link " panel-name="times-SUN_Suite">
+>>>>>>> fea0be4bd78264d2058373994e0c9a4dfb6c8db5
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+<<<<<<< HEAD
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+=======
+                  <a href="#" class="navigator-link " panel-name="reporter-SUN_Suite">
+>>>>>>> fea0be4bd78264d2058373994e0c9a4dfb6c8db5
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+<<<<<<< HEAD
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+=======
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-SUN_Suite">
+>>>>>>> fea0be4bd78264d2058373994e0c9a4dfb6c8db5
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+<<<<<<< HEAD
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+=======
+                  <a href="#" class="navigator-link " panel-name="chronological-SUN_Suite">
+>>>>>>> fea0be4bd78264d2058373994e0c9a4dfb6c8db5
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+<<<<<<< HEAD
+                    <span class="method-stats">2 methods, 2 failed,   </span>
+=======
+                    <span class="method-stats">8 methods, 4 failed,   4 passed</span>
+>>>>>>> fea0be4bd78264d2058373994e0c9a4dfb6c8db5
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+<<<<<<< HEAD
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MDM.Automation_Test.Login_Test" hash-for-method="Login">Login</a> <!-- method navigator-link -->
+=======
+                      <a href="#" panel-name="suite-SUN_Suite" class="hide-methods failed suite-SUN_Suite"> (hide)</a> <!-- hide-methods failed suite-SUN_Suite -->
+                      <a href="#" panel-name="suite-SUN_Suite" class="show-methods failed suite-SUN_Suite"> (show)</a> <!-- show-methods failed suite-SUN_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-SUN_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SUN_Suite" title="MDM.Automation_Test.LoginTest" hash-for-method="LoginToApplication1">LoginToApplication1</a> <!-- method navigator-link -->
+>>>>>>> fea0be4bd78264d2058373994e0c9a4dfb6c8db5
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+<<<<<<< HEAD
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MDM.Automation_Test.Login_Test" hash-for-method="Login2">Login2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+=======
+                        <a href="#" class="method navigator-link" panel-name="suite-SUN_Suite" title="MDM.Automation_Test.LoginTest" hash-for-method="LoginToApplication1">LoginToApplication1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SUN_Suite" title="MDM.Automation_Test.SampleTest" hash-for-method="LoginToApplication3">LoginToApplication3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SUN_Suite" title="MDM.Automation_Test.SampleTest" hash-for-method="LoginToApplication3">LoginToApplication3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SUN_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SUN_Suite" class="hide-methods passed suite-SUN_Suite"> (hide)</a> <!-- hide-methods passed suite-SUN_Suite -->
+                      <a href="#" panel-name="suite-SUN_Suite" class="show-methods passed suite-SUN_Suite"> (show)</a> <!-- show-methods passed suite-SUN_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-SUN_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SUN_Suite" title="MDM.Automation_Test.LoginTest" hash-for-method="LoginToApplication2">LoginToApplication2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SUN_Suite" title="MDM.Automation_Test.LoginTest" hash-for-method="LoginToApplication2">LoginToApplication2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SUN_Suite" title="MDM.Automation_Test.SampleTest" hash-for-method="LoginToApplication4">LoginToApplication4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SUN_Suite" title="MDM.Automation_Test.SampleTest" hash-for-method="LoginToApplication4">LoginToApplication4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SUN_Suite -->
+>>>>>>> fea0be4bd78264d2058373994e0c9a4dfb6c8db5
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+<<<<<<< HEAD
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+=======
+        <div panel-name="suite-SUN_Suite" class="panel SUN_Suite">
+          <div class="suite-SUN_Suite-class-failed">
+>>>>>>> fea0be4bd78264d2058373994e0c9a4dfb6c8db5
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">MDM.Automation_Test.Login_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+<<<<<<< HEAD
+                  <a name="Login">
+                  </a> <!-- Login -->
+                  <span class="method-name">Login</span>
+                  <div class="stack-trace">junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at MDM.Automation_Test.Login_Test.Login(Login_Test.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login2">
+                  </a> <!-- Login2 -->
+                  <span class="method-name">Login2</span>
+                  <div class="stack-trace">junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at MDM.Automation_Test.Login_Test.Login2(Login_Test.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\nandakishor.ban\AppData\Local\Temp\testng-eclipse-1806318962\testng-customsuite.xml</span>
+=======
+                  <a name="LoginToApplication3">
+                  </a> <!-- LoginToApplication3 -->
+                  <span class="method-name">LoginToApplication3</span>
+                  <div class="stack-trace">junit.framework.AssertionFailedError: Login Failed 1
+	at junit.framework.Assert.fail(Assert.java:50)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at MDM.Automation_Test.SampleTest.LoginToApplication3(SampleTest.java:26)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify Login Functionality 3)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginToApplication3">
+                  </a> <!-- LoginToApplication3 -->
+                  <span class="method-name">LoginToApplication3</span>
+                  <div class="stack-trace">junit.framework.AssertionFailedError: Login Failed 1
+	at junit.framework.Assert.fail(Assert.java:50)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at MDM.Automation_Test.SampleTest.LoginToApplication3(SampleTest.java:26)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify Login Functionality 3)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SUN_Suite-class-failed -->
+          <div class="suite-SUN_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">MDM.Automation_Test.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginToApplication1">
+                  </a> <!-- LoginToApplication1 -->
+                  <span class="method-name">LoginToApplication1</span>
+                  <div class="stack-trace">junit.framework.AssertionFailedError: Login Failed 1
+	at junit.framework.Assert.fail(Assert.java:50)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at MDM.Automation_Test.LoginTest.LoginToApplication1(LoginTest.java:26)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify Login Functionality 1)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginToApplication1">
+                  </a> <!-- LoginToApplication1 -->
+                  <span class="method-name">LoginToApplication1</span>
+                  <div class="stack-trace">junit.framework.AssertionFailedError: Login Failed 1
+	at junit.framework.Assert.fail(Assert.java:50)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at MDM.Automation_Test.LoginTest.LoginToApplication1(LoginTest.java:26)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify Login Functionality 1)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SUN_Suite-class-failed -->
+          <div class="suite-SUN_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MDM.Automation_Test.SampleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginToApplication4">
+                  </a> <!-- LoginToApplication4 -->
+                  <span class="method-name">LoginToApplication4</span>
+                  <em>
+(Verify Login Functionality 4)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginToApplication4">
+                  </a> <!-- LoginToApplication4 -->
+                  <span class="method-name">LoginToApplication4</span>
+                  <em>
+(Verify Login Functionality 4)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SUN_Suite-class-passed -->
+          <div class="suite-SUN_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MDM.Automation_Test.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginToApplication2">
+                  </a> <!-- LoginToApplication2 -->
+                  <span class="method-name">LoginToApplication2</span>
+                  <em>
+(Verify Login Functionality 2)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginToApplication2">
+                  </a> <!-- LoginToApplication2 -->
+                  <span class="method-name">LoginToApplication2</span>
+                  <em>
+(Verify Login Functionality 2)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SUN_Suite-class-passed -->
+        </div> <!-- panel SUN_Suite -->
+        <div panel-name="test-xml-SUN_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\TestAutomationFramework\TestNG.xml</span>
+>>>>>>> fea0be4bd78264d2058373994e0c9a4dfb6c8db5
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+<<<<<<< HEAD
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;MDM.Automation_Test.Login_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+=======
+&lt;suite thread-count=&quot;1&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;SUN Suite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;parameter name=&quot;env&quot; value=&quot;dev1&quot;/&gt;
+  &lt;test name=&quot;Test Automation Framework Chrome&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;MDM.Automation_Test.LoginTest&quot;/&gt;
+      &lt;class name=&quot;MDM.Automation_Test.SampleTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test Automation Framework Chrome --&gt;
+  &lt;test name=&quot;Test Automation Framework Firefox&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;MDM.Automation_Test.LoginTest&quot;/&gt;
+      &lt;class name=&quot;MDM.Automation_Test.SampleTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test Automation Framework Firefox --&gt;
+&lt;/suite&gt; &lt;!-- SUN Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SUN_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SUN Suite</span>
+>>>>>>> fea0be4bd78264d2058373994e0c9a4dfb6c8db5
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+<<<<<<< HEAD
+                <span class="test-name">Default test (1 class)</span>
+=======
+                <span class="test-name">Test Automation Framework Chrome (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Test Automation Framework Firefox (2 classes)</span>
+>>>>>>> fea0be4bd78264d2058373994e0c9a4dfb6c8db5
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+<<<<<<< HEAD
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+=======
+        <div panel-name="group-SUN_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SUN Suite</span>
+>>>>>>> fea0be4bd78264d2058373994e0c9a4dfb6c8db5
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+<<<<<<< HEAD
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+=======
+        <div panel-name="times-SUN_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SUN Suite</span>
+>>>>>>> fea0be4bd78264d2058373994e0c9a4dfb6c8db5
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+<<<<<<< HEAD
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+=======
+suiteTableInitFunctions.push('tableData_SUN_Suite');
+function tableData_SUN_Suite() {
+>>>>>>> fea0be4bd78264d2058373994e0c9a4dfb6c8db5
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+<<<<<<< HEAD
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Login')
+data.setCell(0, 2, 'MDM.Automation_Test.Login_Test')
+data.setCell(0, 3, 22824);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Login2')
+data.setCell(1, 2, 'MDM.Automation_Test.Login_Test')
+data.setCell(1, 3, 1463);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 24 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+=======
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'LoginToApplication1')
+data.setCell(0, 2, 'MDM.Automation_Test.LoginTest')
+data.setCell(0, 3, 3253);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'LoginToApplication3')
+data.setCell(1, 2, 'MDM.Automation_Test.SampleTest')
+data.setCell(1, 3, 2385);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'LoginToApplication2')
+data.setCell(2, 2, 'MDM.Automation_Test.LoginTest')
+data.setCell(2, 3, 1870);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'LoginToApplication3')
+data.setCell(3, 2, 'MDM.Automation_Test.SampleTest')
+data.setCell(3, 3, 1518);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'LoginToApplication4')
+data.setCell(4, 2, 'MDM.Automation_Test.SampleTest')
+data.setCell(4, 3, 1344);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'LoginToApplication1')
+data.setCell(5, 2, 'MDM.Automation_Test.LoginTest')
+data.setCell(5, 3, 1265);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'LoginToApplication2')
+data.setCell(6, 2, 'MDM.Automation_Test.LoginTest')
+data.setCell(6, 3, 815);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'LoginToApplication4')
+data.setCell(7, 2, 'MDM.Automation_Test.SampleTest')
+data.setCell(7, 3, 750);
+window.suiteTableData['SUN_Suite']= { tableData: data, tableDiv: 'times-div-SUN_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
+              <div id="times-div-SUN_Suite">
+              </div> <!-- times-div-SUN_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SUN_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SUN Suite</span>
+>>>>>>> fea0be4bd78264d2058373994e0c9a4dfb6c8db5
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+<<<<<<< HEAD
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+=======
+        <div panel-name="ignored-methods-SUN_Suite" class="panel">
+>>>>>>> fea0be4bd78264d2058373994e0c9a4dfb6c8db5
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">MDM.Automation_Test.SampleTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">runBeforeTestSuit</span>
+                <br/>
+                <span class="ignored-method-name">runBeforeTestSuit</span>
+                <br/>
+                <span class="ignored-method-name">runAfterTestSuit</span>
+                <br/>
+                <span class="ignored-method-name">runAfterTestSuit</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+<<<<<<< HEAD
+        <div panel-name="chronological-Default_suite" class="panel">
+=======
+        <div panel-name="chronological-SUN_Suite" class="panel">
+>>>>>>> fea0be4bd78264d2058373994e0c9a4dfb6c8db5
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+<<<<<<< HEAD
+              <div class="chronological-class-name">MDM.Automation_Test.Login_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">startReport</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">init</span>
+                <span class="method-start">691 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Login</span>
+                <span class="method-start">28243 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=Login status=FAILURE method=Login_Test.Login()[pri:0, instance:MDM.Automation_Test....)</span>
+                <span class="method-start">51076 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Login2</span>
+                <span class="method-start">51088 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=Login2 status=FAILURE method=Login_Test.Login2()[pri:0, instance:MDM.Automation_Tes...)</span>
+                <span class="method-start">52555 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">quit</span>
+                <span class="method-start">52557 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">52747 ms</span>
+              </div> <!-- configuration-test after -->
+=======
+              <div class="chronological-class-name">MDM.Automation_Test.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">runBeforeTestSuit</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">runBeforeClass(Chrome, dev1)</span>
+                <span class="method-start">1321 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">runBeforeMethod(public void MDM.Automation_Test.LoginTest.LoginToApplication1() throws java.lang.InterruptedExceptio...)</span>
+                <span class="method-start">15919 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LoginToApplication1</span>
+                <span class="method-start">15920 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=LoginToApplication1 status=FAILURE method=LoginTest.LoginToApplication1()[pri:0, in...)</span>
+                <span class="method-start">17187 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">runBeforeMethod(public void MDM.Automation_Test.LoginTest.LoginToApplication2() throws java.lang.InterruptedExceptio...)</span>
+                <span class="method-start">17586 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginToApplication2</span>
+                <span class="method-start">17586 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=LoginToApplication2 status=SUCCESS method=LoginTest.LoginToApplication2()[pri:0, in...)</span>
+                <span class="method-start">18402 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">runAfterClass</span>
+                <span class="method-start">18402 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MDM.Automation_Test.SampleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">runBeforeClass(Chrome, dev1)</span>
+                <span class="method-start">20684 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">runBeforeMethod(public void MDM.Automation_Test.SampleTest.LoginToApplication3() throws java.lang.InterruptedExcepti...)</span>
+                <span class="method-start">32902 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LoginToApplication3</span>
+                <span class="method-start">32903 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=LoginToApplication3 status=FAILURE method=SampleTest.LoginToApplication3()[pri:0, i...)</span>
+                <span class="method-start">34422 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">runBeforeMethod(public void MDM.Automation_Test.SampleTest.LoginToApplication4() throws java.lang.InterruptedExcepti...)</span>
+                <span class="method-start">34786 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginToApplication4</span>
+                <span class="method-start">34786 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=LoginToApplication4 status=SUCCESS method=SampleTest.LoginToApplication4()[pri:0, i...)</span>
+                <span class="method-start">35537 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">runAfterClass</span>
+                <span class="method-start">35538 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MDM.Automation_Test.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">runBeforeClass(Firefox, dev1)</span>
+                <span class="method-start">36550 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">runBeforeMethod(public void MDM.Automation_Test.LoginTest.LoginToApplication1() throws java.lang.InterruptedExceptio...)</span>
+                <span class="method-start">85542 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LoginToApplication1</span>
+                <span class="method-start">85543 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=LoginToApplication1 status=FAILURE method=LoginTest.LoginToApplication1()[pri:0, in...)</span>
+                <span class="method-start">88800 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">runBeforeMethod(public void MDM.Automation_Test.LoginTest.LoginToApplication2() throws java.lang.InterruptedExceptio...)</span>
+                <span class="method-start">89405 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginToApplication2</span>
+                <span class="method-start">89406 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=LoginToApplication2 status=SUCCESS method=LoginTest.LoginToApplication2()[pri:0, in...)</span>
+                <span class="method-start">91279 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">runAfterClass</span>
+                <span class="method-start">91280 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MDM.Automation_Test.SampleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">runBeforeClass(Firefox, dev1)</span>
+                <span class="method-start">91314 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">runBeforeMethod(public void MDM.Automation_Test.SampleTest.LoginToApplication3() throws java.lang.InterruptedExcepti...)</span>
+                <span class="method-start">138419 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LoginToApplication3</span>
+                <span class="method-start">138419 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=LoginToApplication3 status=FAILURE method=SampleTest.LoginToApplication3()[pri:0, i...)</span>
+                <span class="method-start">140807 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">runBeforeMethod(public void MDM.Automation_Test.SampleTest.LoginToApplication4() throws java.lang.InterruptedExcepti...)</span>
+                <span class="method-start">141306 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginToApplication4</span>
+                <span class="method-start">141307 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=LoginToApplication4 status=SUCCESS method=SampleTest.LoginToApplication4()[pri:0, i...)</span>
+                <span class="method-start">142653 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">runAfterClass</span>
+                <span class="method-start">142654 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MDM.Automation_Test.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">runAfterTestSuit</span>
+                <span class="method-start">142768 ms</span>
+              </div> <!-- configuration-suite after -->
+>>>>>>> fea0be4bd78264d2058373994e0c9a4dfb6c8db5
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<<<<<<< HEAD
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="MDM.Automation_Test.Login_Test">
+        <methods>
+          <include name="init"/>
+          <include name="Login2"/>
+          <include name="endReport"/>
+          <include name="Login"/>
+          <include name="getResult"/>
+          <include name="quit"/>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- MDM.Automation_Test.Login_Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
+=======
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [SUN Suite]" parallel="tests">
+  <parameter name="browser" value="Firefox"/>
+  <parameter name="env" value="dev1"/>
+  <test name="Test Automation Framework Chrome">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="MDM.Automation_Test.LoginTest"/>
+      <class name="MDM.Automation_Test.SampleTest"/>
+    </classes>
+  </test> <!-- Test Automation Framework Chrome -->
+  <test name="Test Automation Framework Firefox">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="MDM.Automation_Test.LoginTest"/>
+      <class name="MDM.Automation_Test.SampleTest"/>
+    </classes>
+  </test> <!-- Test Automation Framework Firefox -->
+  <test name="Test Automation Framework Chrome(failed)" parallel="tests">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="MDM.Automation_Test.SampleTest">
+        <methods>
+          <include name="runBeforeMethod"/>
+          <include name="runBeforeMethod"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="runBeforeClass"/>
+          <include name="runBeforeClass"/>
+          <include name="runAfterClass"/>
+          <include name="runAfterClass"/>
+          <include name="LoginToApplication3"/>
+        </methods>
+      </class> <!-- MDM.Automation_Test.SampleTest -->
+      <class name="MDM.Automation_Test.LoginTest">
+        <methods>
+          <include name="runBeforeMethod"/>
+          <include name="runBeforeMethod"/>
+          <include name="runBeforeTestSuit"/>
+          <include name="LoginToApplication1"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="runBeforeClass"/>
+          <include name="runBeforeClass"/>
+          <include name="runAfterClass"/>
+          <include name="runAfterClass"/>
+          <include name="runAfterTestSuit"/>
+        </methods>
+      </class> <!-- MDM.Automation_Test.LoginTest -->
+    </classes>
+  </test> <!-- Test Automation Framework Chrome(failed) -->
+  <test name="Test Automation Framework Firefox(failed)" parallel="tests">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="MDM.Automation_Test.SampleTest">
+        <methods>
+          <include name="runBeforeMethod"/>
+          <include name="runBeforeMethod"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="runBeforeClass"/>
+          <include name="runBeforeClass"/>
+          <include name="runAfterClass"/>
+          <include name="runAfterClass"/>
+          <include name="LoginToApplication3"/>
+        </methods>
+      </class> <!-- MDM.Automation_Test.SampleTest -->
+      <class name="MDM.Automation_Test.LoginTest">
+        <methods>
+          <include name="runBeforeMethod"/>
+          <include name="runBeforeMethod"/>
+          <include name="runBeforeTestSuit"/>
+          <include name="LoginToApplication1"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="runBeforeClass"/>
+          <include name="runBeforeClass"/>
+          <include name="runAfterClass"/>
+          <include name="runAfterClass"/>
+          <include name="runAfterTestSuit"/>
+        </methods>
+      </class> <!-- MDM.Automation_Test.LoginTest -->
+    </classes>
+  </test> <!-- Test Automation Framework Firefox(failed) -->
+</suite> <!-- Failed suite [SUN Suite] -->
+>>>>>>> fea0be4bd78264d2058373994e0c9a4dfb6c8db5
