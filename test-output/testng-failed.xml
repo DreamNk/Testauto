@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [SUN Suite]" parallel="tests">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [SUN Suite]" guice-stage="DEVELOPMENT">
   <parameter name="env" value="dev1"/>
-  <test thread-count="1" name="Test Automation Framework Chrome(failed)" parallel="tests">
+  <test thread-count="1" parallel="tests" name="YourLogoApplicationTests(failed)">
     <parameter name="browser" value="Chrome"/>
     <classes>
-      <class name="MDM.Automation_Test.YourLogoApplicationTests">
+      <class name="test.Automation_Test.YourLogoApplicationTests">
         <methods>
-          <include name="runBeforeMethod"/>
-          <include name="VerifyNewlyCreatedUserCanLogin"/>
           <include name="runBeforeTestSuit"/>
-          <include name="getResult"/>
-          <include name="runBeforeClass"/>
           <include name="runAfterClass"/>
+          <include name="VerifyLogin"/>
           <include name="runAfterTestSuit"/>
+          <include name="getResult"/>
+          <include name="runBeforeMethod"/>
+          <include name="runBeforeClass"/>
         </methods>
-      </class> <!-- MDM.Automation_Test.YourLogoApplicationTests -->
+      </class> <!-- test.Automation_Test.YourLogoApplicationTests -->
     </classes>
-  </test> <!-- Test Automation Framework Chrome(failed) -->
+  </test> <!-- YourLogoApplicationTests(failed) -->
 </suite> <!-- Failed suite [SUN Suite] -->

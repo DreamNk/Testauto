@@ -34,7 +34,7 @@ public class YourLogoApplicationTests extends AbstractTest {
 	 @DataProvider (name="getData")
 	 public Object[][] getExcelDataForInvalidUsername() {
 		 
-		 ReadExcelData config = new ReadExcelData("D:\\Users\\nandakishor.ban\\TestAutomationFramework\\TestData\\LoginUsers.xlsx");
+		 ReadExcelData config = new ReadExcelData("/Users/nandakishor.ban/git/repository/Testauto/TestData/LoginUsers.xlsx");
 		 int row = config.getrowCount(0);
 		  Object[][] data = new Object[row][2];		  
 		 for (int i=0;i<row;i++)

@@ -42,26 +42,27 @@ public class AbstractTest {
 
 	@BeforeSuite(alwaysRun = true)
 	public static void runBeforeTestSuit() {
-		File configPath = new File(System.getProperty("user.dir") + "\\extent-config.xml");
+		File configPath = new File(System.getProperty("user.home")+"/git/repository/Testauto/extent-config.xml");
 
 		//SimpleDateFormat sdf = new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss");
 		String report_name = "Report"; // + sdf.format((new Date().getTime()));
 
-		Report = new ExtentReports(System.getProperty("user.dir") + "/test-output/Reports/" + report_name + ".html",true);
+		Report = new ExtentReports(System.getProperty("user.home")+"/git/repository/Testauto/test-output/Reports/" + report_name + ".html",true);
 		Report.addSystemInfo("Host Name", "Automation").addSystemInfo("Environment", "Automation Test")
-				.addSystemInfo("User Name", "Nandkishor Ban").loadConfig(configPath);
+			.addSystemInfo("User Name", "Nandkishor Ban").loadConfig(configPath);
 	}
 
-	@Parameters({ "browser", "url" })
+	@Parameters({ "browser", "env" })
 	@BeforeClass(alwaysRun = true)
-	public void runBeforeClass(String browser, String url) throws Exception {
+	public void runBeforeClass(String browser, String env) throws Exception {
 		DriverContext.getDriver(browser);
-	//	String dev3_url = getUrlFromConfig(env);
-		DriverContext.Driver.get(url);
+		String dev3_url = getUrlFromConfig(env);
+		DriverContext.Driver.get(dev3_url);
+		
 
 		DriverContext.Driver.switchTo().defaultContent();
 		waitForAjaxCompleted();
-		//waitForPageLoadCompleted();
+		waitForPageLoadCompleted();
 		PageFactory.initElements(DriverContext.Driver, this);
 
 		String testClassName = this.getClass().getSimpleName();
@@ -131,7 +132,7 @@ public class AbstractTest {
 		Properties config = new Properties();
 		try {
 			FileInputStream fis = new FileInputStream(
-					System.getProperty("user.dir") + "./src/test/resources/MDM/Common/config.properties");
+					System.getProperty("user.home")+"/git/repository/Testauto/src/test/resources/test/Common/config.properties");
 			config.load(fis);
 			url = config.getProperty(env);
 		} catch (FileNotFoundException e) {
