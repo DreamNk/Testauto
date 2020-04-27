@@ -44,8 +44,8 @@ public class AbstractTest {
 	public static void runBeforeTestSuit() {
 		File configPath = new File(System.getProperty("user.home")+"/git/repository/Testauto/extent-config.xml");
 
-		//SimpleDateFormat sdf = new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss");
-		String report_name = "Report"; // + sdf.format((new Date().getTime()));
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss");
+		String report_name = "Report";// + sdf.format((new Date().getTime()));
 
 		Report = new ExtentReports(System.getProperty("user.home")+"/git/repository/Testauto/test-output/Reports/" + report_name + ".html",true);
 		Report.addSystemInfo("Host Name", "Automation").addSystemInfo("Environment", "Automation Test")
@@ -102,13 +102,14 @@ public class AbstractTest {
 	public void runAfterClass() {
 		Report.endTest(TestFixture);
 		DriverContext.Driver.close();
+		
 	}
 
 	@AfterSuite(alwaysRun = true)
 	public void runAfterTestSuit() throws Exception {
 		Report.flush();
 		Report.close();		
-	//	SendEmail.sendMail();
+		SendEmail.sendMail();
 	}
 
 	public static String getScreeenshot() {

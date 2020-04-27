@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="5" passed="1" failed="0" skipped="0">
+<testng-results ignored="4" total="5" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-01-12T12:32:17 IST" name="SUN Suite" finished-at="2020-01-12T12:32:37 IST" duration-ms="19828">
+  <suite started-at="2020-04-27T20:48:26 IST" name="SUN Suite" finished-at="2020-04-27T20:48:31 IST" duration-ms="4953">
     <groups>
     </groups>
-    <test started-at="2020-01-12T12:32:17 IST" name="YourLogoApplicationTests" finished-at="2020-01-12T12:32:37 IST" duration-ms="19828">
+    <test started-at="2020-04-27T20:48:26 IST" name="YourLogoApplicationTests" finished-at="2020-04-27T20:48:31 IST" duration-ms="4953">
       <class name="test.Automation_Test.YourLogoApplicationTests">
-        <test-method is-config="true" signature="runBeforeTestSuit()[pri:0, instance:test.Automation_Test.YourLogoApplicationTests@78047b92]" started-at="2020-01-12T12:32:12 IST" name="runBeforeTestSuit" finished-at="2020-01-12T12:32:17 IST" duration-ms="5135" status="PASS">
+        <test-method is-config="true" signature="runBeforeTestSuit()[pri:0, instance:test.Automation_Test.YourLogoApplicationTests@78047b92]" started-at="2020-04-27T20:48:21 IST" name="runBeforeTestSuit" finished-at="2020-04-27T20:48:26 IST" duration-ms="5133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runBeforeTestSuit -->
-        <test-method is-config="true" signature="runBeforeClass(java.lang.String, java.lang.String)[pri:0, instance:test.Automation_Test.YourLogoApplicationTests@78047b92]" started-at="2020-01-12T12:32:17 IST" name="runBeforeClass" finished-at="2020-01-12T12:32:25 IST" duration-ms="7307" status="PASS">
+        <test-method is-config="true" signature="runBeforeClass(java.lang.String, java.lang.String)[pri:0, instance:test.Automation_Test.YourLogoApplicationTests@78047b92]" started-at="2020-04-27T20:48:26 IST" name="runBeforeClass" finished-at="2020-04-27T20:48:30 IST" duration-ms="4446" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -24,10 +24,65 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: window was already closed
+  (Session info: chrome=81.0.4044.122)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'nandakishorb-mbp.local', ip: 'fe80:0:0:0:a9:7e9d:677c:d2ee%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: /var/folders/0v/1kmdlyl16rg...}, goog:chromeOptions: {debuggerAddress: localhost:50126}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 910d41bcdbb148863d423bee7797b45b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=81.0.4044.122)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'nandakishorb-mbp.local', ip: 'fe80:0:0:0:a9:7e9d:677c:d2ee%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: /var/folders/0v/1kmdlyl16rg...}, goog:chromeOptions: {debuggerAddress: localhost:50126}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 910d41bcdbb148863d423bee7797b45b
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.defaultContent(RemoteWebDriver.java:922)
+at test.Automation_Test.AbstractTest.runBeforeClass(AbstractTest.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runBeforeClass -->
-        <test-method is-config="true" signature="runBeforeMethod(java.lang.reflect.Method)[pri:0, instance:test.Automation_Test.YourLogoApplicationTests@78047b92]" started-at="2020-01-12T12:32:25 IST" name="runBeforeMethod" finished-at="2020-01-12T12:32:25 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="runBeforeMethod(java.lang.reflect.Method)[pri:0, instance:test.Automation_Test.YourLogoApplicationTests@78047b92]" started-at="2020-04-27T20:48:31 IST" name="runBeforeMethod" finished-at="2020-04-27T20:48:31 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -38,38 +93,208 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runBeforeMethod -->
-        <test-method signature="VerifyLogin(java.lang.String, java.lang.String)[pri:0, instance:test.Automation_Test.YourLogoApplicationTests@78047b92]" started-at="2020-01-12T12:32:25 IST" name="VerifyLogin" description="Verify newly created user can login" data-provider="getData" finished-at="2020-01-12T12:32:37 IST" duration-ms="11994" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[nandskishor.ban14@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Ram@1234]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="VerifyLogin(java.lang.String, java.lang.String)[pri:0, instance:test.Automation_Test.YourLogoApplicationTests@78047b92]" started-at="2020-04-27T20:48:31 IST" name="VerifyLogin" description="Verify newly created user can login" data-provider="getData" finished-at="2020-04-27T20:48:31 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: window was already closed
+  (Session info: chrome=81.0.4044.122)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'nandakishorb-mbp.local', ip: 'fe80:0:0:0:a9:7e9d:677c:d2ee%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: /var/folders/0v/1kmdlyl16rg...}, goog:chromeOptions: {debuggerAddress: localhost:50126}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 910d41bcdbb148863d423bee7797b45b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=81.0.4044.122)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'nandakishorb-mbp.local', ip: 'fe80:0:0:0:a9:7e9d:677c:d2ee%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: /var/folders/0v/1kmdlyl16rg...}, goog:chromeOptions: {debuggerAddress: localhost:50126}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 910d41bcdbb148863d423bee7797b45b
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.defaultContent(RemoteWebDriver.java:922)
+at test.Automation_Test.AbstractTest.runBeforeClass(AbstractTest.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyLogin -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.Automation_Test.YourLogoApplicationTests@78047b92]" started-at="2020-01-12T12:32:37 IST" name="getResult" finished-at="2020-01-12T12:32:37 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.Automation_Test.YourLogoApplicationTests@78047b92]" started-at="2020-04-27T20:48:31 IST" name="getResult" finished-at="2020-04-27T20:48:31 IST" duration-ms="1" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=VerifyLogin status=SUCCESS method=YourLogoApplicationTests.VerifyLogin(java.lang.String, java.lang.String)[pri:0, instance:test.Automation_Test.YourLogoApplicationTests@78047b92] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=YourLogoApplicationTests.VerifyLogin(java.lang.String, java.lang.String)[pri:0, instance:test.Automation_Test.YourLogoApplicationTests@78047b92] output={null}]]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at test.Automation_Test.AbstractTest.getResult(AbstractTest.java:97)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:530)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="runAfterClass()[pri:0, instance:test.Automation_Test.YourLogoApplicationTests@78047b92]" started-at="2020-01-12T12:32:37 IST" name="runAfterClass" finished-at="2020-01-12T12:32:37 IST" duration-ms="75" status="PASS">
+        <test-method is-config="true" signature="runAfterClass()[pri:0, instance:test.Automation_Test.YourLogoApplicationTests@78047b92]" started-at="2020-04-27T20:48:31 IST" name="runAfterClass" finished-at="2020-04-27T20:48:31 IST" duration-ms="6" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=81.0.4044.122)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'nandakishorb-mbp.local', ip: 'fe80:0:0:0:a9:7e9d:677c:d2ee%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: /var/folders/0v/1kmdlyl16rg...}, goog:chromeOptions: {debuggerAddress: localhost:50126}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 910d41bcdbb148863d423bee7797b45b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=81.0.4044.122)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'nandakishorb-mbp.local', ip: 'fe80:0:0:0:a9:7e9d:677c:d2ee%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: /var/folders/0v/1kmdlyl16rg...}, goog:chromeOptions: {debuggerAddress: localhost:50126}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 910d41bcdbb148863d423bee7797b45b
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at test.Automation_Test.AbstractTest.runAfterClass(AbstractTest.java:104)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:217)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:130)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runAfterClass -->
-        <test-method is-config="true" signature="runAfterTestSuit()[pri:0, instance:test.Automation_Test.YourLogoApplicationTests@78047b92]" started-at="2020-01-12T12:32:42 IST" name="runAfterTestSuit" finished-at="2020-01-12T12:32:42 IST" duration-ms="206" status="PASS">
+        <test-method is-config="true" signature="runAfterTestSuit()[pri:0, instance:test.Automation_Test.YourLogoApplicationTests@78047b92]" started-at="2020-04-27T20:48:36 IST" name="runAfterTestSuit" finished-at="2020-04-27T20:48:36 IST" duration-ms="275" status="FAIL">
+          <exception class="org.apache.commons.mail.EmailException">
+            <message>
+              <![CDATA[Cannot attach file "D:\Users\nandakishor.ban\TestAutomationFramework\test-output\Reports\Report.html"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.apache.commons.mail.EmailException: Cannot attach file "D:\Users\nandakishor.ban\TestAutomationFramework\test-output\Reports\Report.html"
+at org.apache.commons.mail.MultiPartEmail.attach(MultiPartEmail.java:304)
+at test.Automation_Test.SendEmail.sendMail(SendEmail.java:28)
+at test.Automation_Test.AbstractTest.runAfterTestSuit(AbstractTest.java:112)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:369)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.io.IOException: "D:\Users\nandakishor.ban\TestAutomationFramework\test-output\Reports\Report.html" does not exist
+at org.apache.commons.mail.MultiPartEmail.attach(MultiPartEmail.java:292)
+... 21 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.apache.commons.mail.EmailException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runAfterTestSuit -->
